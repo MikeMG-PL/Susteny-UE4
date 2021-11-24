@@ -85,3 +85,6 @@ Build/Android/res/*
 !Build/Android/res/*/
 Build/Android/res/*/*
 !Build/Android/res/*/*.png
+Susteny/Saved/Logs/Susteny.log
+Susteny/Saved/Config/WorldState/4262696153.json
+Susteny/Saved/Config/Windows/EditorPerProjectUserSettings.ini

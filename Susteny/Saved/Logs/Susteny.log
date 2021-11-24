@@ -1017,3 +1017,30 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.24-14.16.00:930][600]LogContentValidation: Display: Validating World /Game/4_MAPS/PlacWolnosci.PlacWolnosci
 [2021.11.24-14.23.57:317][ 58]LogFileManager: Warning: DeleteFile was unable to delete 'D:/Susteny-UE4/Susteny/Intermediate/CachedAssetRegistry.bin', retrying in .5s...
 [2021.11.24-14.23.57:991][ 60]LogFileManager: Warning: DeleteFile recovered during retry!
+[2021.11.24-14.28.04:896][  1]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2021.11.24-14.28.04:938][  1]LogAssetEditorSubsystem: Opening Asset editor for World /Game/4_MAPS/PlacWolnosci.PlacWolnosci
+[2021.11.24-14.28.04:938][  1]Cmd: MAP LOAD FILE="D:/Susteny-UE4/Susteny/Content/4_MAPS/PlacWolnosci.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.24-14.28.04:939][  1]LightingResults: New page: Lighting Build
+[2021.11.24-14.28.04:939][  1]LoadErrors: New page: Loading map: PlacWolnosci.umap
+[2021.11.24-14.28.04:942][  1]LogWorld: UWorld::CleanupWorld for PlacWolnosci, bSessionEnded=true, bCleanupResources=true
+[2021.11.24-14.28.04:942][  1]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.24-14.28.04:942][  1]MapCheck: New page: Map Check
+[2021.11.24-14.28.04:942][  1]LightingResults: New page: Lighting Build
+[2021.11.24-14.28.04:978][  1]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.24-14.28.04:983][  1]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2021.11.24-14.28.05:002][  1]LogAudio: Display: Audio Device (ID: 1) registered with world 'PlacWolnosci'.
+[2021.11.24-14.28.05:004][  1]LogAIModule: Creating AISystem for world PlacWolnosci
+[2021.11.24-14.28.05:005][  1]LogPhysics: Warning: ForeachShape(Trimesh): ScaledElem[0] invalid
+[2021.11.24-14.28.05:012][  1]PIE: Warning: Applying invalid scale V(X=10 000 000,00, Y=10 000 000,00, Z=10 000 000,00) to body BP_CloudMaskGenerator_7
+[2021.11.24-14.28.05:013][  1]LogPhysics: Warning: ForeachShape(Trimesh): ScaledElem[0] invalid
+[2021.11.24-14.28.05:013][  1]LogPhysics: Warning: ForeachShape(Trimesh): ScaledElem[0] invalid
+[2021.11.24-14.28.05:055][  1]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.24-14.28.05:101][  1]LogUObjectHash: Compacting FUObjectHashTables data took   5.02ms
+[2021.11.24-14.28.05:117][  1]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.24-14.28.05:117][  1]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,119ms to complete.
+[2021.11.24-14.28.05:117][  1]LogFileHelpers: Loading map 'PlacWolnosci' took 0.179
+[2021.11.24-14.28.09:824][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/4_MAPS/PlacWolnosci" FILE="D:/Susteny-UE4/Susteny/Content/4_MAPS/PlacWolnosci.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.24-14.28.09:863][204]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2021.11.24-14.28.09:975][204]LogSavePackage: Moving 'D:/Susteny-UE4/Susteny/Saved/PlacWolnosci8B8167AC489FDFEFDA5B62B45C4B05DF.tmp' to 'D:/Susteny-UE4/Susteny/Content/4_MAPS/PlacWolnosci.umap'
+[2021.11.24-14.28.10:071][204]AssetCheck: New page: Asset Save: PlacWolnosci
+[2021.11.24-14.28.10:071][204]LogContentValidation: Display: Validating World /Game/4_MAPS/PlacWolnosci.PlacWolnosci
