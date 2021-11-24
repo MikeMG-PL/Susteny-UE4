@@ -950,3 +950,36 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.24-13.39.03:257][378]LogSlate: Took 0.007008 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
 [2021.11.24-13.39.05:260][417]LogSlate: Window 'AI_Car' being destroyed
 [2021.11.24-13.39.12:351][625]LogSlate: Window 'Vehicle_BackTireConfig' being destroyed
+[2021.11.24-13.44.02:084][294]LogUObjectHash: Compacting FUObjectHashTables data took   4.74ms
+[2021.11.24-13.44.02:136][294]LogAssetEditorSubsystem: Opening Asset editor for World /Game/4_MAPS/PlacWolnosci.PlacWolnosci
+[2021.11.24-13.44.02:137][294]Cmd: MAP LOAD FILE="D:/Susteny-UE4/Susteny/Content/4_MAPS/PlacWolnosci.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.24-13.44.02:137][294]LightingResults: New page: Lighting Build
+[2021.11.24-13.44.02:137][294]LoadErrors: New page: Loading map: PlacWolnosci.umap
+[2021.11.24-13.44.02:140][294]LogWorld: UWorld::CleanupWorld for PlacWolnosci, bSessionEnded=true, bCleanupResources=true
+[2021.11.24-13.44.02:140][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.24-13.44.02:140][294]MapCheck: New page: Map Check
+[2021.11.24-13.44.02:140][294]LightingResults: New page: Lighting Build
+[2021.11.24-13.44.02:176][294]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.24-13.44.02:182][294]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2021.11.24-13.44.02:202][294]LogAudio: Display: Audio Device (ID: 1) registered with world 'PlacWolnosci'.
+[2021.11.24-13.44.02:203][294]LogAIModule: Creating AISystem for world PlacWolnosci
+[2021.11.24-13.44.02:205][294]LogPhysics: Warning: ForeachShape(Trimesh): ScaledElem[0] invalid
+[2021.11.24-13.44.02:211][294]PIE: Warning: Applying invalid scale V(X=10 000 000,00, Y=10 000 000,00, Z=10 000 000,00) to body BP_CloudMaskGenerator_7
+[2021.11.24-13.44.02:211][294]LogPhysics: Warning: ForeachShape(Trimesh): ScaledElem[0] invalid
+[2021.11.24-13.44.02:211][294]LogPhysics: Warning: ForeachShape(Trimesh): ScaledElem[0] invalid
+[2021.11.24-13.44.02:260][294]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.24-13.44.02:303][294]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2021.11.24-13.44.02:317][294]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.24-13.44.02:318][294]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,123ms to complete.
+[2021.11.24-13.44.02:318][294]LogFileHelpers: Loading map 'PlacWolnosci' took 0.181
+[2021.11.24-13.53.44:963][495]LogHttp: Warning: 0000013ED66B8F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B048496CB-45CF-6942-7DE2-2CABB1FAA38F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.1-17735300%2B%2B%2BUE4%2BRelease-4.27&UserID=b5479c954ada4c568c1e9a91f95477c1%7C7f0c7aa07c2c4471b0915e66d7b9a3b9%7C381108ce-8eb7-4032-aff9-c5af08d18352&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.11.24-13.53.44:963][495]LogHttp: Warning: 0000013ED66B8F00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2021.11.24-13.53.44:963][495]LogHttp: Warning: 0000013ED66B8F00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x13ef525beb0 [can pipeline])
+[2021.11.24-13.53.44:963][495]LogHttp: Warning: 0000013ED66B8F00: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2021.11.24-13.53.44:963][495]LogHttp: Warning: 0000013ED66B8F00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.211.47.94) port 443 (#0))
+[2021.11.24-13.53.44:963][495]LogHttp: Warning: 0000013ED66B8F00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.11.24-13.53.44:963][495]LogHttp: Warning: 0000013ED66B8F00: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2021.11.24-13.53.44:963][495]LogHttp: Warning: 0000013ED66B8F00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.11.24-13.53.44:963][495]LogHttp: Warning: 0000013ED66B8F00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.11.24-13.53.44:963][495]LogHttp: Warning: 0000013ED66B8F00: libcurl info message cache 7 (Closing connection 0)
+[2021.11.24-13.53.45:280][496]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B048496CB-45CF-6942-7DE2-2CABB1FAA38F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.1-17735300%2B%2B%2BUE4%2BRelease-4.27&UserID=b5479c954ada4c568c1e9a91f95477c1%7C7f0c7aa07c2c4471b0915e66d7b9a3b9%7C381108ce-8eb7-4032-aff9-c5af08d18352&AppEnvironment=datacollector-binary&UploadType=eteventstream
