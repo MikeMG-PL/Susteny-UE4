@@ -1094,3 +1094,10 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.24-14.30.46:668][393]LogFileHelpers: Saving map 'PlacWolnosci' took 0.168
 [2021.11.24-14.30.46:700][393]AssetCheck: New page: Asset Save: PlacWolnosci
 [2021.11.24-14.30.46:700][393]LogContentValidation: Display: Validating World /Game/4_MAPS/PlacWolnosci.PlacWolnosci
+[2021.11.24-14.33.42:950][111]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pw)
+[2021.11.24-14.33.44:105][171]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SkyDomeMesh)
+[2021.11.24-14.33.44:740][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/4_MAPS/PlacWolnosci" FILE="D:/Susteny-UE4/Susteny/Content/4_MAPS/PlacWolnosci.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.24-14.33.44:780][197]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2021.11.24-14.33.44:889][197]LogSavePackage: Moving 'D:/Susteny-UE4/Susteny/Saved/PlacWolnosci82C7101D4EE73F0B6BFB709E6547EA85.tmp' to 'D:/Susteny-UE4/Susteny/Content/4_MAPS/PlacWolnosci.umap'
+[2021.11.24-14.33.44:938][197]AssetCheck: New page: Asset Save: PlacWolnosci
+[2021.11.24-14.33.44:938][197]LogContentValidation: Display: Validating World /Game/4_MAPS/PlacWolnosci.PlacWolnosci
